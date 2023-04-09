@@ -62,6 +62,8 @@ int main() {
   return 0;
 }
 
+// using switch cases
+
 int main(void){
   int origin;
   printf("Which point are you located? 0- A, 1 -B, 2-C...7 -H?\n");

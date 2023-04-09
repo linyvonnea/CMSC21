@@ -17,8 +17,7 @@ int main(){
 }
 
 
-/*Revise line 16 such that you use a designated initializer to set pathways 0 and 2 
-to true, and the rest will be false. Make the initializer as short as possible.*/
+//A
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -37,7 +36,7 @@ int main(){
     }
     return 0;
 }
-
+ // B
 #include <stdio.h>
 #include <stdbool.h>
 
