@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <math.h>
 
-int main(void) {
+int main() {
+    int power = 1;
+    int exponent;
 
-    //prompts user for input
-    int n;
-    printf("Enter value of n: ");
-    scanf("%d", &n);
-    printf("n\t2^n\n");
+    printf("Enter the exponent for 2: ");
+    scanf("%d", &exponent);
 
-    for (int i = 0; i <= n; i++) {
-        // uses pow function to calculate 2^n 
-        int power = (int) pow(2, i);
-        printf("%d\t%d\n", i, power);
+    for(int i = 0; i < exponent; i++) {
+        power *= 2;
     }
+
+    printf("2 to the power of %d is %d", exponent, power);
+    
     return 0;
 }
